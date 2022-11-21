@@ -10,7 +10,7 @@ test_suite_val1=[]
 for sh_rowA in sh['A']:
         test_suite_val1.append(sh_rowA.value)
 print(test_suite_val1)
-input_file_name=list(map(str, sys.argv[1].split(','))
+input_file_name=list(map(str, sys.argv[1].split(',')))
 print("List of files: ", input_file_name)
 input_product_name=sys.argv[2]
 for file in input_file_name:
